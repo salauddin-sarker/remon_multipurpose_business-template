@@ -1,0 +1,118 @@
+.portfolio-img > img {
+  width: 100%;
+}
+
+.portfolio {
+  display: block;
+  position: relative;
+}
+
+
+.portfolio > .portfolio-img::before {
+    background: #000;
+  bottom: 0;
+  content: "";
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.portfolio:hover .portfolio-img::before {
+  opacity: 0.6;
+}
+
+.portfolio-view {
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.5s ease 0s;
+}
+.portfolio:hover .portfolio-view {
+  opacity: 1;
+}
+
+.portfolio-view a {
+  background: rgb(255, 255, 255) none repeat scroll 0 0;
+  border-radius: 50%;
+  color: #000;
+  font-size: 18px;
+  height: 50px;
+  line-height: 50px;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%) translateY(-50%) scale(0.6);
+  transition: all 0.4s ease 0s;
+  width: 50px;
+}
+.portfolio:hover .portfolio-view a {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-50%) scale(1);
+}
+
+.portfolio-title {
+  bottom: 20px;
+  left: 20px;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.3s ease-in-out 0s;
+  z-index: 2;
+}
+.portfolio:hover .portfolio-title {
+  opacity: 1;
+}
+
+.title-style-1 h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 0;
+  text-transform: capitalize;
+  transform: translateX(-15px);
+  transition: all 0.4s ease-in-out 0s;
+}
+.portfolio:hover .title-style-1 h3 {
+  transform: translateX(0px);
+}
+
+.portfolio-view a:hover {
+  background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+  color: #000;
+}
+
+
+.portfolio-menu button {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 0 none;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 7px 15px;
+  position: relative;
+  text-transform: uppercase;
+    transition: all .4s ease 0s;
+}
+
+.portfolio-menu button:hover,.portfolio-menu button.active {
+  background-color: #ffbf3b;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

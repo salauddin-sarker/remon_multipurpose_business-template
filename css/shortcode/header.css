@@ -1,0 +1,286 @@
+
+/*--------------------------
+  header CSS
+-----------------------------------*/
+
+.header-contact li {
+  display: inline-block;
+  padding-right: 30px;
+}
+
+.header-contact li a i{
+  padding-right: 10px;
+    color: #ffbf3b;
+}
+.header-contact li a:hover{
+    color: #ffbf3b;
+}
+.header-top {
+  background-color: #fff;
+  padding: 10px 0;
+}
+.header-bottom {
+  background-color: #fff;
+}
+.header-style-1 .row {
+  background-color: #444;
+  border-radius: 25px 25px 0px 0px;
+}
+.header-style-1.stick .row {
+  border-radius: 0px !important;
+}
+
+
+.logo-area {
+  float: left;
+  padding-top: 24px;
+}
+a.logo {
+  color: #fff;
+  font-family: "Raleway",sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+input.search {
+  background-color: transparent;
+  border: 1px solid #ddd;
+  color: #555;
+  float: right;
+  height: 40px;
+  width: 300px;
+  padding: 0 45px 0 10px;
+}
+.search-form .form-inner {
+  position: relative;
+}
+
+.search-form .btn {
+  border: 0 none;
+  border-radius: 0 3px 3px 0;
+  box-shadow: none;
+  color: #fff;
+  min-height: 40px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40px;
+  z-index: 3;
+    background-color: #ffbf3b;
+}
+.header-contact {
+  padding-top: 6px;
+}
+
+
+.mean-container .mean-bar {
+  background: transparent none repeat scroll 0 0;
+  min-height: 0;
+  padding: 0;
+}
+
+.mean-container a.meanmenu-reveal {
+  border: 1px solid #464646;
+  color: #fff;
+  margin-top: -22px;
+  padding: 4px 5px;
+  position: absolute;
+}
+.mean-container a.meanmenu-reveal span {
+  background-color: #fff;
+}
+.header-style-2 .mean-container a.meanmenu-reveal span {
+  background-color: #444;
+}
+.header-style-2 .stick .mean-container a.meanmenu-reveal span {
+  background-color: #fff;
+}
+.header-style-2 .mean-container a.meanmenu-reveal {
+  color: #444;
+}
+.header-style-2 .stick .mean-container a.meanmenu-reveal {
+  color: #fff;
+}
+/*------- menu css ----------*/
+
+
+
+
+.header-position {
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    margin-left: 25px;
+    position: relative;
+}
+.main-menu ul li a {
+  color: #fff;
+  display: block;
+  font-family: "Petrona",serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 30px 0;
+  position: relative;
+  text-transform: uppercase;
+}
+.main-menu ul li:hover > a {
+    color: #ffbf3b;
+}
+.main-menu ul li ul {
+    background: #444 none repeat scroll 0 0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    text-align: left;
+    top: 105px;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 190px;
+    z-index: 999;
+}
+.main-menu ul li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    top: 100%
+}
+.main-menu ul li ul li a {} .main-menu ul li ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.03);
+    transition: all .3s ease 0s;
+}
+.main-menu ul li ul li:hover {
+    background: #fff none repeat scroll 0 0;
+    padding-left: 10px;
+}
+.main-menu ul li ul li a {
+    display: block;
+    padding: 10px 15px;
+    text-transform: capitalize;
+}
+.main-menu ul li ul li:first-child {
+    border-top: none;
+}
+.main-menu ul li ul li:hover > a {
+    padding-left: 15px
+}
+.main-menu ul li ul li a:before {
+    display: none
+}
+.main-menu ul li ul li > ul {
+    left: 100%;
+    margin-top: -1px;
+    opacity: 0;
+    position: absolute;
+    top: 45%;
+    visibility: hidden;
+}
+.main-menu ul li ul li:hover > ul {
+    top: 0;
+}
+.main-menu.text-right span {
+  float: right;
+}
+
+
+
+.header-bottom.stick-h2.stick {
+  animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+  background: #444 none repeat scroll 0 0;
+  box-shadow: 0 1px 3px rgba(50, 50, 50, 0.4);
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.stick-h2.stick .main-menu ul li a {
+  padding: 30px 0;
+}
+.stick-h2.stick .main-menu ul li ul li a {
+  padding: 10px 15px;
+}
+.stick-h2.stick .logo-area {
+  padding-top: 24px;
+}
+
+
+
+.header-social a {
+  background-color: #ffbf3b;
+  border-radius: 100%;
+  color: #fff;
+  display: block;
+  height: 30px;
+  line-height: 32px;
+  margin-left: 10px;
+  text-align: center;
+  width: 30px;
+}
+.header-social a:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+.header-social li {
+  display: inline-block;
+}
+.header-social {
+  text-align: right;
+}
+
+
+
+
+
+/*------- 1. home two ------------*/
+
+
+.header-style-2 {
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+.header-style-2 .header-top {
+  background-color: transparent;
+    border-bottom: 1px solid #999;
+}
+.header-style-2 .header-bottom {
+  background-color: transparent;
+}
+
+.header-style-2 .header-contact li a,.header-style-2 .header-contact li a i,.header-style-2 .main-menu ul li a,.header-style-2  a.logo{
+  color: #fff;
+}
+.header-style-2 .stick .main-menu ul li a,.header-style-2 .stick a.logo{
+  color: #fff;
+}
+
+.header-style-2 .main-menu ul li ul li a {
+  color: #fff;
+}
+
+
+.header-style-2 .main-menu ul li:hover > a {
+  color: #ffbf3b;
+}
+
+
+
+
+
+
+
+
+

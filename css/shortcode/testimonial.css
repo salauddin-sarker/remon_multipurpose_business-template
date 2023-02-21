@@ -1,0 +1,116 @@
+.testimonial-img > img {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.testimonial-text .curve {
+  display: block;
+  height: 30px;
+  left: -14px;
+  overflow: hidden;
+  position: absolute;
+  top: 20px;
+  width: 15px;
+  z-index: 5;
+}
+
+.testimonial-text {
+  margin-left: 130px;
+  position: relative;
+}
+.testimonial-text .curve::before {
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #f0f0f0;
+  content: "";
+  display: block;
+  height: 30px;
+  left: 6px;
+  position: absolute;
+  top: 0;
+  transform: rotate(-45deg);
+  width: 30px;
+}
+.testimonial-text p {
+  border: 1px solid #f0f0f0;
+  background: #fff;
+  border-radius: 5px;
+  padding: 25px;
+  position: relative;
+  text-align: justify;
+}
+.testimonial-img {
+  display: inline-block;
+  float: left;
+}
+
+.single-testimonial {
+  width: 50%;
+}
+
+.testimonial-text > h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-top: 20px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.testimonial-text > h3 span{
+  color: #ffbf3b;
+}
+
+.single-testimonial {
+  float: left;
+  width: 48%;
+}
+
+
+
+.owl-dots {
+  margin-top: 50px;
+  text-align: center;
+}
+.owl-carousel .owl-controls .owl-dots .owl-dot {
+  background-color: transparent;
+  border: 1px solid #ffbf3b;
+  border-radius: 100%;
+  display: inline-block;
+  height: 15px;
+  margin: 6px;
+  width: 15px;
+  z-index: 999;
+}
+.owl-carousel .owl-controls .owl-dots .owl-dot.active {
+  background-color: #ffbf3b;
+  border: 1px solid #ffbf3b;
+}
+
+.testimonial-all .single-testimonial{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
